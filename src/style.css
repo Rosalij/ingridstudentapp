@@ -21,7 +21,11 @@ main {
 
 
 #textinput {
-  font-size: 1.5em;
+  font-size: 1.3em;
+  margin: auto;
+width: 100%;
+  padding-top: 0.4em;
+  margin-top: 0.5em;
 }
 
 #guestbook li #from {
@@ -35,6 +39,19 @@ main {
   line-height: 1em;
 }
 
+#image {
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+ 
+  padding-bottom: 2em;
+ max-width: 90%;
+  font-size: 0.7em;
+  border-radius: 20px;
+  color: white;
+  background-color: rgba(0, 0, 67, 0.593);
+}
 
 #guestbook li,
 .form_container {
@@ -207,7 +224,7 @@ label {
 #guestbook p {
   margin-top: 0.2em;
   padding-top: 0em;
-margin: auto;
+  margin: auto;
   color: rgb(255, 249, 210);
 }
 
@@ -222,9 +239,9 @@ input {
   color: rgb(0, 0, 0);
 }
 
- @media all and (max-width: 900px) {
+@media all and (max-width: 900px) {
   #guestbook p {
-width: 90%;
-padding: 0;
+    width: 90%;
+    padding: 0;
   }
 }
