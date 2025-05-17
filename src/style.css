@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tangerine", cursive;
+  list-style-type: none;
+}
+
+header {
+  background-color: white;
+}
+
+main {
+  font-size: 2em;
+  padding-top: 2em;
+  text-align: center;
+  margin: auto;
+
+}
+#from {
+  font-size: 1em;
+  line-height: 2em;
+}
+
+#textinput{
+  font-size: 1.8em;
+padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+#guestbook li, .form_container {
+  margin: auto;
+  background-color: rgba(0, 93, 159, 0.736);
+
+  text-align: center;
+  width: 80%;
+  color: #fff5a0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.236);
+  border-style:ridge;
+  border-color: rgba(227, 207, 143, 0.91);
+  border-width: 5px;
+  
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
+}
+
+
+h1:first-child {
+  margin: auto;
+  text-align: center;
+  padding-top: 1.5em;
+  font-size: 4em;
+}
+
+#h1_2 {
+  margin: auto;
+  text-align: center;
+  padding-top: 0.5em;
+  font-size: 5em;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: rgb(255, 253, 108);
+}
+
+.container_text1 p {
+  padding-bottom: 1em;
+  font-size: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+nav li {
+  display:flex;
+  font-size: 2.3em;
+margin: auto;
+  font-weight: bold;
+}
+
+nav ul {
+  margin-top: 5em;
+  margin-bottom: 2em;
+  height: 4em;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-top-color: rgba(172, 230, 255, 0.855);
+  border-bottom-color: rgba(172, 230, 255, 0.855);
+  align-items: center;
+  display: flex;
+
+  background-color: rgba(0, 93, 159, 0.736);
+ 
+}
+
+a {
+  text-decoration: none;
+  color: #fff5a0;
+
+  transition: 0.7s;
+  padding: 0.4em
+}
+
+a:hover,
+button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+footer p {
+  background-color: #c8c8c8;
+  font-size: 1em;
+  margin: auto;
+  text-align: center;
+  font-family: monospace;
+
+}
+
+footer {
+  padding-top: 0.2;
+  padding-bottom: 0.2em;
+  background-color: #c8c8c8;
+}
+
+form {
+
+  padding: 1em;
+  display: flex;
+
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.2em;
+  color: white;
+
+  margin-top: 1em;
+}
+
+#registerbutton,
+#loginbutton {
+  color: #fff5a0;
+  padding: 0.3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: auto;
+  font-size: 1em;
+  margin-top: 2em;
+  font-weight: 500;
+  background-color: rgba(0, 93, 159, 0.736);
+  border: 2px;
+  border-style: solid;
+  transition: 0.5s;
+}
+
+#registerbutton:hover,
+#loginbutton:hover {
+  background-color: rgb(57, 93, 131);
+}
+
+#post {
+  padding: 0.3em;
+  margin: auto;
+  font-size: 1.4em;
+  margin-top: 1em;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.736);
+  border: 2px;
+  color: rgb(0, 0, 0);
+  border-style: solid;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  height: 4em;
+  font-size: 2em;
+  box-sizing: border-box;
+}
+
+
+
+input {
+  padding: 0.2em;
+  font-family: monospace;
+  font-size: 0.8em;
+  margin: auto;
+  max-width: 20em;
+  color: rgb(0, 0, 0);
+}
+
