@@ -54,12 +54,13 @@ async function getGuestbook() {
 // Display posts on page
 function loadGuestbook(posts) {
     postListEl.innerHTML = "";
-
-    posts.forEach(post => {
+const sortedPosts = posts.sort((a, b) => (b.created) - (a.created));
+console.log(sortedPosts)  
+sortedPosts.forEach(post => {
         const postEl = document.createElement("li");
         postEl.className = "post_li";
         postEl.innerHTML = `
-            <p id="from">från ${post.author}, ${new Date(post.created).toLocaleDateString("sv-SE")}</p>
+            <p id="from">från ${post.author}, ${new Date(post.created).toLocaleDateString}</p>
             <p id="textinput">${post.textinput}</p>
             ${post.image ? `<img src="${post.image}" alt="post image">` : ""}
         `;
