@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Tangerine:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -17,19 +18,26 @@ main {
   margin: auto;
 
 }
-#from {
-  font-size: 1em;
-  color: #fff5a0;
-  line-height: 2em;
+
+
+#textinput {
+  font-size: 1.5em;
 }
 
-#textinput {margin-top: 0.5em;
-  font-size: 1.4em;
-padding-bottom: 0.5em;
-  padding-top: 0.5em;
+#guestbook li #from {
+  margin: auto;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
 }
 
-#guestbook li, .form_container {
+#guestbook li #textinput {
+  padding-bottom: 0.5em;
+  line-height: 1em;
+}
+
+
+#guestbook li,
+.form_container {
   margin: auto;
   background-color: rgba(0, 93, 159, 0.736);
 
@@ -40,10 +48,10 @@ padding-bottom: 0.5em;
   margin-right: auto;
   margin-bottom: 1em;
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.236);
-  border-style:ridge;
+  border-style: ridge;
   border-color: rgba(227, 207, 143, 0.91);
   border-width: 8px;
-  
+
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
 }
 
@@ -72,25 +80,11 @@ img {
   display: flex;
   margin: auto;
   width: 10em;
-  border-style: solid;
-  border-color: rgb(63, 61, 42);
-  border-width: 1px;
-  box-shadow: 2px 2px 10px rgba(26, 26, 26, 0.563);
+  max-height: 300px;
+  object-fit: cover;
   margin-bottom: 1em;
 }
 
-#image {
-  width: 100%;
-  font-size: 0.6em;
-  margin: auto;
-padding-top: 1em;
-padding-left: 1em;
-margin-top: 1em;
-padding-bottom: 1em;
-  border-radius: 1em;
-  color: #fff5a0;
-  background-color: #18215f;
-}
 
 .container_text1 p {
   padding-bottom: 1em;
@@ -101,9 +95,9 @@ padding-bottom: 1em;
 }
 
 nav li {
-  display:flex;
+  display: flex;
   font-size: 2.3em;
-margin: auto;
+  margin: auto;
   font-weight: bold;
 }
 
@@ -121,7 +115,7 @@ nav ul {
   display: flex;
   background-color: rgba(0, 93, 159, 0.736);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
- 
+
 }
 
 footer {
@@ -210,10 +204,10 @@ label {
   box-sizing: border-box;
 }
 
-#guestbook p{
+#guestbook p {
   margin-top: 0.2em;
   padding-top: 0em;
-
+margin: auto;
   color: rgb(255, 249, 210);
 }
 
@@ -228,3 +222,9 @@ input {
   color: rgb(0, 0, 0);
 }
 
+ @media all and (max-width: 900px) {
+  #guestbook p {
+width: 90%;
+padding: 0;
+  }
+}
