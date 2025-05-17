@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Tangerine:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -23,8 +22,8 @@ main {
   line-height: 2em;
 }
 
-#textinput{
-  font-size: 1.8em;
+#textinput {margin-top: 0.5em;
+  font-size: 1.4em;
 padding-bottom: 0.5em;
   padding-top: 0.5em;
 }
@@ -63,9 +62,17 @@ h1:first-child {
   font-weight: 500;
   text-decoration: underline;
   text-decoration-thickness: 4px;
-  text-decoration-color: rgb(255, 253, 108);
+  text-decoration-color: rgb(255, 252, 70);
 }
 
+img {
+  max-width: 100%;
+  display: flex;
+  margin: auto;
+  width: 15em;
+  margin-bottom: 2em;
+  border-radius: 50%;
+}
 .container_text1 p {
   padding-bottom: 1em;
   font-size: 0.5em;
@@ -89,13 +96,17 @@ nav ul {
   border-top-style: solid;
   border-top-width: 5px;
   border-bottom-width: 5px;
-  border-top-color: rgba(172, 230, 255, 0.855);
-  border-bottom-color: rgba(172, 230, 255, 0.855);
+  border-top-color: rgba(10, 10, 32, 0.775);
+  border-bottom-color: rgba(20, 20, 48, 0.855);
   align-items: center;
   display: flex;
-
   background-color: rgba(0, 93, 159, 0.736);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
  
+}
+
+footer {
+  display: none;
 }
 
 a {
@@ -179,6 +190,11 @@ label {
   height: 4em;
   font-size: 2em;
   box-sizing: border-box;
+}
+
+#guestbook p{
+  padding-top: 0em;
+  color: white;
 }
 
 
